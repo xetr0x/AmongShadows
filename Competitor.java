@@ -1,3 +1,3 @@
-Record  Competitor {
+Record Competitor {
     
 }
