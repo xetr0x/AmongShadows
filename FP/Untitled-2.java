@@ -1,8 +1,6 @@
 package FP;
-import java.util.stream.Stream;
-
+import java.util.stream.*;
 import FP.Employee.Role;
-
 import java.util.*;
 
 
@@ -16,11 +14,12 @@ public static void main(String[] args) {
 
 
 
-//TODO: Functional programming= making functions? 
-
-
+//TODO: Functional programming= making functions? unmodifiableList()
+// TODO: Immutable list instead of an arraylist!
 
 public List<Employee> EmployeeCreater(){
+
+  
     List<Employee> People = List.of(new Employee(1, "John", "R&D", 10000, Role.Manager),
     new Employee(2, "Max", "R&D", 13000, Role.Developer), new Employee(3, "Anne", "R&D", 12000, Role.Tester));
     People.add(new Employee(1, "John", "R&D", 10000, Role.Manager));
